@@ -1,0 +1,19 @@
+1. Clona el repositori en local.
+git clone https://github.com/aginard/DebuggerGit
+
+2. Puja el repositori al teu compte de github.
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/miquelangelamengual/DebuggerGit.git
+git push -u origin main
+
+3. Crea una branca anomenada "hotfix".
+git checkout -b hotfix
+
+4. Utilitza el debugger per trobar els errors.
+
+5. Corregeix els errors i fes commit.
+
+6. Fes merge dels canvis a la teva branca master en local.
+
+7. Puja el resultat al teu repositori (inclòs un fitxer txt amb les comandes que has executat).
